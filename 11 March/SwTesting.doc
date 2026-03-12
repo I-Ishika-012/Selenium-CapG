@@ -1,0 +1,36 @@
+SOFTWARE TESTING
+
+>> sw works as per user req
+
+>> disadvantages of manual TESTING
+--time consuming
+--tedious, monotonous
+--req consistency
+--chances of human err due to dependency on manpower
+--cost is only init less
+
+>> automation TESTING
+--uses testing tools/tech
+--write script once, run many times
+
+--ADVANTAGES
+--faster exec
+--less people req
+--accuracy
+--improved consistency
+--reusability
+
+--disadvantages
+--programming knowledge req
+--high init cost
+--technical issues
+--fails in cases where human judgement is req
+
+COMPONENTS/TOOLS OF SELENIUM:
+--Selenium -> 2004, jason Huggins
+--Sel. RC 2004 ..Remote control -->req RC server separately installed is bw script and web -->complex -->DEPRECATED
+--Sel. Web driver 2009-->overcome the server problem --> Doesn't allow parallel execution -->Only for web appln -->no 100% automation -->no customer support
+--Sel. IDE 2006-->Record and Playback tool -->replays the action performed -->actions get recorded and played when required -->not apt for data driven testing
+--Sel. Grid 2011--> overcomes the parallel execution problem -->hub node architecture
+
+

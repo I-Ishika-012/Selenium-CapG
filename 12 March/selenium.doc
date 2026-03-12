@@ -1,0 +1,53 @@
+>>selenium.webdriver → Module that controls browsers programmatically.
+
+>>Chrome → Class used to launch and control the Chrome browser.
+
+>>ChromeOptions → Class used to configure how Chrome should start.
+
+>>Creating a ChromeOptions Object using
+opt = ChromeOptions()
+You use this object to:
+
+--disable notifications
+
+--run headless mode
+
+--set user agents
+
+--keep browser open after execution
+
+--add extensions
+
+>>detach holds the browser open --> detaches the browser session from the script.
+
+>> driver = Chrome(options=opt) --> Launches browser obj with options
+>> use driver now to control browser
+
+>>driver.get("https://google.com") -->get a webpage
+--> return type for get is none
+
+>>driver.maximize_window() -->maximizes, return type is none
+>>driver.minimize_window() -->minimizes, return type is none 
+>>driver.fullscreen_window() -->no task or title bar, return type none
+
+
+--SOME PROPERTIES--
+>>title = driver.title //fetches title
+
+>>print(driver.current_url) -->fetches curr current_url
+
+>>print(driver.page_source) -->fetches html src
+
+>>driver.name -->fetches driver name such as Chrome
+
+
+--QUIT/CLOS/BACK/FORWARD/REFRESH--
+>>driver.quit() -->closes all tabs
+
+>>driver.close() -->closes one tab
+
+>>driver.back() -->prev page
+
+>>driver.forward() -->next page
+
+>>driver.refresh()
