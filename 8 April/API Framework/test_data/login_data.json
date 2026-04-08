@@ -1,0 +1,11 @@
+{
+    "valid_user": {
+        "email": "wayne@gmail.com",
+        "password": "bwayne",
+        "role": "SHOPPER"
+    },
+    "invalid_user": {
+        "email": "wrongwayne@email.com",
+        "password": "wrongpass"
+    }
+}

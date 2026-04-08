@@ -1,0 +1,18 @@
+{
+  "add_to_wishlist": [
+    {
+      "productId": 82,
+      "quantity": 1
+    },
+    {
+      "productId": 57,
+      "quantity": 2
+    }
+  ],
+  "remove_from_wishlist": {
+    "productId": 82
+  },
+  "get_wishlist": {
+    "shopperId": "383686"
+  }
+}
